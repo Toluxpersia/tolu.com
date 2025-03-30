@@ -1,187 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>White Portfolio</title>
-  <style>
-    /* Global Styles */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      background-color: #fff;
-      color: #000;
-      line-height: 1.6;
-      overflow-x: hidden;
-    }
-    a {
-      color: #000;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    /* Navigation */
-    nav {
-      position: fixed;
-      width: 100%;
-      top: 0;
-      padding: 20px 40px;
-      z-index: 100;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: #fff;
-      border-bottom: 2px solid #000;
-    }
-    nav .logo {
-      font-size: 1.5rem;
-      font-weight: bold;
-      text-transform: uppercase;
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-    }
-    nav ul li {
-      margin-left: 20px;
-    }
-    /* Hero Section */
-    .hero {
-      height: 100vh;
-      background-color: #fff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding-top: 80px; /* accounting for fixed nav */
-    }
-    .hero-content {
-      max-width: 800px;
-      padding: 0 20px;
-    }
-    .hero h1 {
-      font-size: 3.5rem;
-      margin-bottom: 20px;
-      text-transform: uppercase;
-    }
-    .hero p {
-      font-size: 1.2rem;
-      margin-bottom: 30px;
-    }
-    .hero .btn {
-      padding: 12px 30px;
-      border: 2px solid #000;
-      text-transform: uppercase;
-      font-weight: bold;
-      transition: background 0.3s, color 0.3s;
-      background-color: #fff;
-      color: #000;
-    }
-    .hero .btn:hover {
-      background-color: #000;
-      color: #fff;
-    }
-    /* Portfolio Section */
-    .portfolio {
-      padding: 100px 40px;
-      background-color: #fff;
-    }
-    .portfolio h2 {
-      text-align: center;
-      font-size: 2.5rem;
-      margin-bottom: 50px;
-      text-transform: uppercase;
-    }
-    .portfolio-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 40px;
-    }
-    .portfolio-item {
-      background-color: #fff;
-      padding: 20px;
-      border: 2px solid #000;
-      transition: transform 0.3s, background-color 0.3s;
-    }
-    .portfolio-item:hover {
-      transform: translateY(-5px);
-      background-color: #f7f7f7;
-    }
-    .portfolio-item img {
-      width: 100%;
-      height: auto;
-      display: block;
-      margin-bottom: 15px;
-    }
-    .portfolio-item h3 {
-      font-size: 1.5rem;
-      margin-bottom: 10px;
-      text-transform: uppercase;
-    }
-    .portfolio-item p {
-      font-size: 1rem;
-    }
-    /* Footer */
-    footer {
-      padding: 40px;
-      text-align: center;
-      background-color: #fff;
-      border-top: 2px solid #000;
-    }
-  </style>
+    <!-- Character Encoding. -->
+    <meta charset="UTF-8">
+    <!-- Viewport. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page Title. -->
+    <title>John Doe</title>
+    <!-- Stylesheet. -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
-  <!-- Navigation -->
-  <nav>
-    <div class="logo">MyBrand</div>
-    <ul>
-      <li><a href="#hero">Home</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <!-- Hero Section -->
-  <section class="hero" id="hero">
-    <div class="hero-content">
-      <h1>Welcome to My Portfolio</h1>
-      <p>Explore my projects and creative journey in a pure white aesthetic.</p>
-      <a class="btn" href="#portfolio">View Portfolio</a>
+    <!-- Page Container. -->
+    <div class="container">
+        <!-- Main Page Heading. -->
+        <!-- Your name goes here. -->
+        <h1>John Doe</h1>
+        <!-- Page Section. -->
+        <!-- Update the comment to describe the section accordingly. -->
+        <!-- Update the section id attribute accordingly. Remember: No two IDs should be the same -- every ID must be unique from other IDs. -->
+        <div class="page-section" id="section-1">
+            <!-- Section Paragraphs. -->
+            <!-- Remove or add as many as needed in the same format. -->
+            <p>Accusamus at iusto dignissimos et.</p>
+            <p>Eos at iusto et odio accusamus.</p>
+            <p>Et ducimus accusamus at odio dignissimos.</p>
+            <p>Odio vero dignissimos eos accusamus et at iusto.</p>
+        </div>
+        <!-- Page Section. -->
+        <!-- Update the comment to describe the section accordingly. -->
+        <!-- Update the section id attribute accordingly. Remember: No two IDs should be the same -- every ID must be unique from other IDs. -->
+        <div class="page-section" id="section-2">
+            <!-- Page Section Heading. -->
+            <h2 class="section-heading">Lorem Ipsum</h2>
+            <!-- Section Paragraph. -->
+            <p>Odio at vero ducimus iusto eos.</p>
+            <!-- Section Paragraph with a Link -->
+            <!-- Update the link title attribute accordingly. -->
+            <p>Et iusto eos vero <a href="#" title="Link to XYZ">accusamus</a> odio ducimus.</p>
+            <!-- Unordered List. -->
+            <ul>
+                <!-- List Items. -->
+                <li>Adipiscing ipsum sit elit do amet sed. Sit sed dolor amet lorem consectetur do.</li>
+                <li>Consectetur adipiscing sit elit lorem do ipsum.</li>
+                <!-- List Item with a Link -->
+                <!-- Update the link title attribute accordingly. -->
+                <li>Elit ipsum sed amet lorem. <a href="#" title="Link to XYZ">Lorem</a> dolor elit amet sit do adipiscing.</li>
+            </ul>
+        </div>
+        <!-- Page Section. -->
+        <!-- Update the comment to describe the section accordingly. -->
+        <!-- Update the section id attribute accordingly. Remember: No two IDs should be the same -- every ID must be unique from other IDs. -->
+        <div class="page-section" id="section-3">
+            <!-- Page Section Heading. -->
+            <h2 class="section-heading">Lorem Ipsum</h2>
+            <!-- Section Paragraph. -->
+            <p>At vero ducimus iusto eos.</p>
+            <!-- Section Paragraph with a Link -->
+            <!-- Update the link title attribute accordingly. -->
+            <p>Iusto eos vero <a href="#" title="Link to XYZ">accusamus</a> odio ducimus.</p>
+            <!-- Ordered List. -->
+            <ol>
+                <!-- List Items. -->
+                <li>Sit elit do amet sed. Sit sed dolor amet lorem consectetur do.</li>
+                <li>Adipiscing sit elit lorem do ipsum.</li>
+                <!-- List Item with a Link -->
+                <!-- Update the link title attribute accordingly. -->
+                <li>Elit <a href="#" title="Link to XYZ">Lorem</a> dolor elit amet sit do adipiscing.</li>
+            </ol>
+        </div>
     </div>
-  </section>
-
-  <!-- Portfolio Section -->
-  <section class="portfolio" id="portfolio">
-    <h2>Portfolio</h2>
-    <div class="portfolio-grid">
-      <div class="portfolio-item">
-        <img src="https://via.placeholder.com/500x300/ffffff/000000?text=Project+1" alt="Project 1">
-        <h3>Project One</h3>
-        <p>A brief description of Project One, highlighting clean and minimal design.</p>
-      </div>
-      <div class="portfolio-item">
-        <img src="https://via.placeholder.com/500x300/ffffff/000000?text=Project+2" alt="Project 2">
-        <h3>Project Two</h3>
-        <p>A brief description of Project Two, focusing on modern aesthetics and functionality.</p>
-      </div>
-      <div class="portfolio-item">
-        <img src="https://via.placeholder.com/500x300/ffffff/000000?text=Project+3" alt="Project 3">
-        <h3>Project Three</h3>
-        <p>A brief description of Project Three, emphasizing a balance between form and content.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer id="contact">
-    <p>Connect with me via <a href="mailto:example@example.com">Email</a> or on <a href="#">LinkedIn</a>.</p>
-  </footer>
-
 </body>
 </html>
